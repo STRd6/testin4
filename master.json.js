@@ -1,36 +1,24 @@
 window["STRd6/testin4:master"]({
   "source": {
-    "LICENSE": {
+    "main.coffee.md": {
       "mode": "100644",
       "type": "blob",
-      "sha": "abd0cae3d527df38ed433e0977fa024217ffd2dc",
-      "path": "LICENSE",
-      "size": 1080,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/abd0cae3d527df38ed433e0977fa024217ffd2dc",
-      "content": "The MIT License (MIT)\n\nCopyright (c) 2014 Daniel X Moore\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "sha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce",
+      "path": "main.coffee.md",
+      "size": 25,
+      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/9d7bc71ab45719fca8681dcbf57c8244e3de5dce",
+      "content": "\n\n    alert \"herrooo???\"\n",
       "encoding": "raw",
       "modified": false,
-      "initialSha": "abd0cae3d527df38ed433e0977fa024217ffd2dc"
+      "initialSha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce"
     },
     "README.md": {
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2d078bcd8f1a549d4f6f1cb5cc49a5563a6277c0",
       "path": "README.md",
-      "size": 22,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/2d078bcd8f1a549d4f6f1cb5cc49a5563a6277c0",
-      "content": "testin4\n=======\n\nyolo\n",
-      "encoding": "raw",
-      "modified": false,
-      "initialSha": "2d078bcd8f1a549d4f6f1cb5cc49a5563a6277c0"
-    },
-    "main.coffee.md": {
-      "path": "main.coffee.md",
-      "content": "\n\n    alert \"herrooo???\"\n",
+      "content": "Just testing github API\n=======================\n\nYOLO!\n",
       "modified": false,
       "mode": "100644",
       "initialSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "sha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce"
+      "sha": "8340b8aa6f6f6b2f6c8bc4b2eced2699f892b988"
     }
   },
   "distribution": {
@@ -108,8 +96,8 @@ window["STRd6/testin4:master"]({
     "labels_url": "https://api.github.com/repos/STRd6/testin4/labels{/name}",
     "releases_url": "https://api.github.com/repos/STRd6/testin4/releases{/id}",
     "created_at": "2014-04-10T00:21:57Z",
-    "updated_at": "2014-04-10T00:21:57Z",
-    "pushed_at": "2014-04-10T00:21:57Z",
+    "updated_at": "2014-04-10T00:22:33Z",
+    "pushed_at": "2014-04-10T00:22:31Z",
     "git_url": "git://github.com/STRd6/testin4.git",
     "ssh_url": "git@github.com:STRd6/testin4.git",
     "clone_url": "https://github.com/STRd6/testin4.git",
