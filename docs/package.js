@@ -193,32 +193,20 @@
     "main.coffee.md": {
       "mode": "100644",
       "type": "blob",
-      "sha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce",
+      "sha": "67688955d05a29354ab233dc430da76b8a0358a8",
       "path": "main.coffee.md",
-      "size": 25,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/9d7bc71ab45719fca8681dcbf57c8244e3de5dce",
-      "content": "\n\n    alert \"herrooo???\"\n",
+      "size": 40,
+      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/863add028f0e739823fea42b20e6e668edf46fa5",
+      "content": "Badical\n=======\n\n    alert \"herrooo???\"\n\n\nGems are outrageous!\n\nTruly truly truly outrageous!\n",
       "encoding": "raw",
       "modified": false,
-      "initialSha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce"
-    },
-    "newfile.coffee": {
-      "path": "newfile.coffee",
-      "content": "",
-      "modified": false,
-      "mode": "100644",
-      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      "initialSha": "863add028f0e739823fea42b20e6e668edf46fa5"
     }
   },
   "distribution": {
     "main": {
       "path": "main",
       "content": "(function() {\n  alert(\"herrooo???\");\n\n}).call(this);\n",
-      "type": "blob"
-    },
-    "newfile": {
-      "path": "newfile",
-      "content": "(function() {\n\n\n}).call(this);\n",
       "type": "blob"
     }
   },
@@ -290,8 +278,8 @@
     "labels_url": "https://api.github.com/repos/STRd6/testin4/labels{/name}",
     "releases_url": "https://api.github.com/repos/STRd6/testin4/releases{/id}",
     "created_at": "2014-04-10T00:21:57Z",
-    "updated_at": "2014-04-10T00:33:09Z",
-    "pushed_at": "2014-04-10T00:33:09Z",
+    "updated_at": "2014-04-10T23:40:27Z",
+    "pushed_at": "2014-04-10T23:40:27Z",
     "git_url": "git://github.com/STRd6/testin4.git",
     "ssh_url": "git@github.com:STRd6/testin4.git",
     "clone_url": "https://github.com/STRd6/testin4.git",
