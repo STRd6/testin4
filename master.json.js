@@ -12,6 +12,18 @@ window["STRd6/testin4:master"]({
       "modified": false,
       "initialSha": "8340b8aa6f6f6b2f6c8bc4b2eced2699f892b988"
     },
+    "duder.txt": {
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bb036aebf5f2cff5a462e9fbd26cb4bfd065750",
+      "path": "duder.txt",
+      "size": 5,
+      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/1bb036aebf5f2cff5a462e9fbd26cb4bfd065750",
+      "content": "duder",
+      "encoding": "raw",
+      "modified": false,
+      "initialSha": "1bb036aebf5f2cff5a462e9fbd26cb4bfd065750"
+    },
     "main.coffee.md": {
       "mode": "100644",
       "type": "blob",
@@ -24,19 +36,23 @@ window["STRd6/testin4:master"]({
       "modified": false,
       "initialSha": "9d7bc71ab45719fca8681dcbf57c8244e3de5dce"
     },
-    "duder.txt": {
-      "path": "duder.txt",
-      "content": "duder",
+    "newfile.coffee": {
+      "path": "newfile.coffee",
+      "content": "",
       "modified": false,
       "mode": "100644",
-      "initialSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "sha": "1bb036aebf5f2cff5a462e9fbd26cb4bfd065750"
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
     }
   },
   "distribution": {
     "main": {
       "path": "main",
       "content": "(function() {\n  alert(\"herrooo???\");\n\n}).call(this);\n",
+      "type": "blob"
+    },
+    "newfile": {
+      "path": "newfile",
+      "content": "(function() {\n\n\n}).call(this);\n",
       "type": "blob"
     }
   },
@@ -108,8 +124,8 @@ window["STRd6/testin4:master"]({
     "labels_url": "https://api.github.com/repos/STRd6/testin4/labels{/name}",
     "releases_url": "https://api.github.com/repos/STRd6/testin4/releases{/id}",
     "created_at": "2014-04-10T00:21:57Z",
-    "updated_at": "2014-04-10T00:32:07Z",
-    "pushed_at": "2014-04-10T00:32:07Z",
+    "updated_at": "2014-04-10T00:33:09Z",
+    "pushed_at": "2014-04-10T00:33:09Z",
     "git_url": "git://github.com/STRd6/testin4.git",
     "ssh_url": "git@github.com:STRd6/testin4.git",
     "clone_url": "https://github.com/STRd6/testin4.git",
