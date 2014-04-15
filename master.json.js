@@ -1,40 +1,22 @@
 window["STRd6/testin4:master"]({
   "source": {
     "README.md": {
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8340b8aa6f6f6b2f6c8bc4b2eced2699f892b988",
       "path": "README.md",
-      "size": 55,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/8340b8aa6f6f6b2f6c8bc4b2eced2699f892b988",
       "content": "Just testing github API\n=======================\n\nYOLO!\n",
-      "encoding": "raw",
-      "modified": false,
-      "initialSha": "8340b8aa6f6f6b2f6c8bc4b2eced2699f892b988"
+      "mode": "100644",
+      "type": "blob"
     },
     "duder.txt": {
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1bb036aebf5f2cff5a462e9fbd26cb4bfd065750",
       "path": "duder.txt",
-      "size": 5,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/1bb036aebf5f2cff5a462e9fbd26cb4bfd065750",
       "content": "duder",
-      "encoding": "raw",
-      "modified": false,
-      "initialSha": "1bb036aebf5f2cff5a462e9fbd26cb4bfd065750"
+      "mode": "100644",
+      "type": "blob"
     },
     "main.coffee.md": {
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a10dc08a726a5a0970ec71cd8a749ae3ff5bafbe",
       "path": "main.coffee.md",
-      "size": 94,
-      "url": "https://api.github.com/repos/STRd6/testin4/git/blobs/67688955d05a29354ab233dc430da76b8a0358a8",
       "content": "Badical\n=======\n\n    alert \"herrooo???\"\n\n\nGems are outrageous!\n\nTruly truly truly outrageous!\n\nRadical\n-------\n\nTestin some more\n",
-      "encoding": "raw",
-      "modified": false,
-      "initialSha": "67688955d05a29354ab233dc430da76b8a0358a8"
+      "mode": "100644",
+      "type": "blob"
     }
   },
   "distribution": {
@@ -45,7 +27,7 @@ window["STRd6/testin4:master"]({
     }
   },
   "progenitor": {
-    "url": "http://strd6.github.io/editor/"
+    "url": "http://www.danielx.net/editor/"
   },
   "entryPoint": "main",
   "repository": {
@@ -112,8 +94,8 @@ window["STRd6/testin4:master"]({
     "labels_url": "https://api.github.com/repos/STRd6/testin4/labels{/name}",
     "releases_url": "https://api.github.com/repos/STRd6/testin4/releases{/id}",
     "created_at": "2014-04-10T00:21:57Z",
-    "updated_at": "2014-04-10T23:46:21Z",
-    "pushed_at": "2014-04-10T23:46:21Z",
+    "updated_at": "2014-04-11T00:07:23Z",
+    "pushed_at": "2014-04-11T00:07:22Z",
     "git_url": "git://github.com/STRd6/testin4.git",
     "ssh_url": "git@github.com:STRd6/testin4.git",
     "clone_url": "https://github.com/STRd6/testin4.git",
