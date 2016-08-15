@@ -1,41 +1,7 @@
-# HyperDev Community Projects
+# Rewrite Me（゜o゜)ノ 
 
-It's dangerous to go alone. Take these cool projects made with HyperDev that you can like or remix.
+You've just stumbled into HyperWeb – a Node/Express writing, running and building environment that doesn't suck.
 
-Philosophically, a little bit `GitHub Explore`, a little bit `Spotify`, and little bit `Youtube`.
+> Edit this project into the web app of your dreams, or pragmatic needs.
 
-
-                  /88888888888888888888888888\
-                  |88888888888888888888888888/
-                   |~~____~~~~~~~~~"""""""""|
-                  / \_________/"""""""""""""\
-                 /  |              \         \
-                /   |  88    88     \         \
-               /    |  88    88      \         \
-              /    /                  \        |
-             /     |   ________        \       |
-             \     |   \______/        /       |
-  /"\         \     \____________     /        |
-  | |__________\_        |  |        /        /
-/""""\           \_------'  '-------/       --
-\____/,___________\                 -------/
-------*            |                    \
-  ||               |                     \
-  ||               |                 ^    \
-  ||               |                | \    \
-  ||               |                |  \    \
-  ||               |                |   \    \
-  \|              /                /"""\/    /
-     -------------                |    |    /
-     |\--_                        \____/___/
-     |   |\-_                       |
-     |   |   \_                     |
-     |   |     \                    |
-     |   |      \_                  |
-     |   |        ----___           |
-     |   |               \----------|
-     /   |                     |     ----------""\
-/"\--"--_|                     |               |  \
-|_______/                      \______________/    )
-                                              \___/
-
+`server.js` is where your app starts.

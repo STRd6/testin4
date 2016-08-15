@@ -1,0 +1,59 @@
+<!-- view template -->
+<!-- called from your routes in server.js -->
+
+<!-- templating docs: http://mozilla.github.io/nunjucks/ -->
+<!--TODO: use something else-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta name="description" content="A cool thing made with HyperWeb">
+    <link id="favicon" rel="icon" href="http://hyperweb.space/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        A Dream of the Future
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      <p>Tell me your hopes and dreams:</p>
+      <form>
+        <input type="text" placeholder="Dreams!">
+        <button type="submit">Submit</button>
+      </form>
+      <section class="dreams">
+        <ul>
+          <li>
+            Find and count some sheep
+          </li>
+          <li>
+            Climb a really tall mountain
+          </li>
+          <li>
+            Wash the dishes
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <a href="http://hyperweb.space">
+        Remix this in HyperWeb
+      </a>
+    </footer>
+
+    <!--move these guys to a scripts.html partial -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
