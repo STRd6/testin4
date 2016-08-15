@@ -1,30 +1,41 @@
-# Welcome to HyperDev -- You are in DEV
+# HyperDev Community Projects
 
-HyperDev is a developer playground that lets you code a real web-app without the boring setup and deployment steps. 
+It's dangerous to go alone. Take these cool projects made with HyperDev that you can like or remix.
 
-\ ゜o゜)ノ
-
-Badical!
-
-Your new web-app is already running! Click `"Show"` in the header to see it. Updates to your code will instantly deploy and update your app.
+Philosophically, a little bit `GitHub Explore`, a little bit `Spotify`, and little bit `Youtube`.
 
 
-# Your Project
+                  /88888888888888888888888888\
+                  |88888888888888888888888888/
+                   |~~____~~~~~~~~~"""""""""|
+                  / \_________/"""""""""""""\
+                 /  |              \         \
+                /   |  88    88     \         \
+               /    |  88    88      \         \
+              /    /                  \        |
+             /     |   ________        \       |
+             \     |   \______/        /       |
+  /"\         \     \____________     /        |
+  | |__________\_        |  |        /        /
+/""""\           \_------'  '-------/       --
+\____/,___________\                 -------/
+------*            |                    \
+  ||               |                     \
+  ||               |                 ^    \
+  ||               |                | \    \
+  ||               |                |  \    \
+  ||               |                |   \    \
+  \|              /                /"""\/    /
+     -------------                |    |    /
+     |\--_                        \____/___/
+     |   |\-_                       |
+     |   |   \_                     |
+     |   |     \                    |
+     |   |      \_                  |
+     |   |        ----___           |
+     |   |               \----------|
+     /   |                     |     ----------""\
+/"\--"--_|                     |               |  \
+|_______/                      \______________/    )
+                                              \___/
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
-
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-
-# Handy Tips
-
-You can invite friends and teammates to your project and code with them in real-time. It's pretty neat.
-
-All HyperDev projects use https. No setup required.
-
-> Made by Fog Creek

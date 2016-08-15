@@ -1,0 +1,39 @@
+- bird = "https://cdn.hyperdev.com/us-east-1%3Acba180f4-ee65-4dfc-8dd5-f143280d3c10%2Fbird.svg"
+- glasses = "https://s3.amazonaws.com/hyperweb-editor-assets/us-east-1%3Ab0bac0a2-1470-4ff8-b72d-acc002ba0a16%2Fshow-app.svg"
+
+- url = "https://hyperdev.com/community/"
+- description = "Explore Things Made in HyperDev - Developer Playground for Full-stack Web Apps"
+
+head
+  title=title
+  meta(name="description" content=description)
+  meta(name="keywords" content="get started, hyperdev, node, javascript, example, gallery, projects, apps, html, css")  
+  link(id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon")
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible" content="IE=edge")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  link(rel="stylesheet" href="https://cloud.webtype.com/css/3a8e55c6-b1f3-4659-99eb-125ae72bd084.css")
+  link(rel="stylesheet" href="/community/style.css")
+
+  // facebook open graph tags
+  meta(property="og:type" content="website")
+  meta(property="og:url" content=url)
+  meta(property="og:title" content=title)
+  meta(property="og:description" content=description)
+  meta(property="og:image" content=bird)
+  
+  // twitter card tags (stack with og: tags)
+  meta(name="twitter:card" content="summary")
+  meta(name="twitter:site" content="@HyperDevIt")
+  meta(name="twitter:title" content=title)
+  meta(name="twitter:description" content=description)
+  meta(name="twitter:image" content=bird)
+  meta(name="twitter:image:alt" content="HyperDev HummingBird")
+  meta(name="twitter:url" content=url)
+
+  // Google Tag Manager
+  noscript
+    iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-TMJWF4" height="0" width="0" style="display:none;visibility:hidden;")
+  script.
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TMJWF4');
+  // Eng Google Tag Manager

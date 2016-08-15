@@ -1,0 +1,16 @@
+li.project
+  a(target="_new" href="https://hyperdev.com/#!/project/#{project.editorUrl}", onclick="javascript: ga('send', {hitType: 'pageview',page: '/internal-links/gallery/project-#{project.projectId}'});")
+    .name=project.name
+  a(target="_new" href="https://#{project.editorUrl}.hyperdev.space/", onclick="javascript: ga('send', {hitType: 'pageview',page: '/internal-links/gallery/project-#{project.projectId}'});")
+    .show(title="Show app" data-tooltip="Show app" data-tooltip-left="true")
+      img(src=glasses)
+  .description=project.description
+  .users
+    each user in project.users
+      .user(title=user.name data-tooltip=user.name data-tooltip-left=true)
+        img(width=30 height=30 src=user.avatar)
+  .meta
+    if project.likes
+      .likes=project.likes
+    if project.remixes
+      .remixes=project.remixes

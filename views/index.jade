@@ -1,0 +1,31 @@
+- MAX_PROJECTS_PER_CATEGORY = 3
+
+include head
+
+body
+  include header
+  main(role="main")
+
+    include categories-list
+
+    section
+      each category in categories
+        article.projects
+          .div
+            a(href="#{category.url}")
+              h2.category-name=category.name
+          header.category
+            a(href="#{category.url}")
+              img(src=category.img)
+            p.description=category.description
+
+          ul.projects-container
+            - matchingProjects = 0
+            each project in projects
+              if project.categoryId == category.id
+                if matchingProjects < MAX_PROJECTS_PER_CATEGORY
+                  include project
+                  - matchingProjects ++
+            a.categories-link(href=category.url style="background-color: #{category.color}") See all →
+
+  include footer
