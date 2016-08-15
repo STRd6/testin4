@@ -1,0 +1,32 @@
+smallViewport = 500px
+
+header
+  a
+    color: primary
+
+  .logo
+    display: inline-block
+    vertical-align: middle
+    margin-right: 5px
+
+  h1
+    display: inline-block
+
+  nav
+    float: right
+    margin-top: 8px
+    @media (max-width: smallViewport)
+      float: none
+      margin-bottom: 1rem
+      margin-left: -10px
+    .button
+      display: inline-block
+      font-size: 12px
+      margin-left: 10px
+      padding: 4px 10px
+      padding-top: 5px
+
+  .search-input
+    margin-top: 1rem
+    background-image: url(search)
+    background-repeat: no-repeat

@@ -1,0 +1,27 @@
+- cat = "https://cdn.hyperdev.com/us-east-1%3Acba180f4-ee65-4dfc-8dd5-f143280d3c10%2Fcat.svg"
+
+include head
+
+body
+  include header
+  main(role="main")
+    section
+      article.projects.search-results
+        if results.length
+          ul.projects-container
+            each result in results
+              - project = result.original
+              include project
+        else
+          p no results
+          img(src=cat)
+
+    include categories-list
+
+  include footer
+
+  .hidden.query-string= query
+  script.
+    query = document.getElementsByClassName('query-string')[0].innerHTML;
+    document.getElementsByClassName('search-input')[0].value = query;
+    document.getElementsByClassName('search-input')[0].focus()

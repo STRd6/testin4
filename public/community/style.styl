@@ -1,0 +1,124 @@
+monospace = Menlo, Consolas, Monaco, "Lucida Console", Monospace
+sansserif = "Benton Sans", Helvetica, Sans-serif
+
+primary = #222
+secondary = #C3C3C3
+tertiary = #9B9B9B
+secondary-background = #F5F5F5
+secondary-background-active = #E8E8E8
+input-border = #CCC
+input-border-focused = #A2D7FF
+marketing = #FFD1C6
+cta = #83ffcd
+
+heart = "https://s3.amazonaws.com/hyperweb-editor-assets/us-east-1%3Ab0bac0a2-1470-4ff8-b72d-acc002ba0a16%2Fheart.svg"
+showApp = "https://s3.amazonaws.com/hyperweb-editor-assets/us-east-1%3Ab0bac0a2-1470-4ff8-b72d-acc002ba0a16%2Fshow-app.svg"
+search = "https://cdn.hyperdev.com/us-east-1%3Acba180f4-ee65-4dfc-8dd5-f143280d3c10%2Fsearch.svg"
+
+
+*
+  box-sizing: border-box
+
+body
+  font-family: sansserif
+  padding: 25px
+  color: primary
+  margin-left: auto
+  margin-right: auto
+  width: 100%
+  max-width: 1102px
+  @media (max-width: 400px)
+    padding-left: 15px
+    padding-right: 15px
+
+h1
+  font-weight: bold
+  font-size: 18px
+
+h2
+  font-weight: 600
+  font-size: 16px
+
+.hidden
+  display: none !important
+
+.centered
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+
+main,
+section
+  clear: both
+  overflow: auto
+
+section,
+article
+  margin-top: 1rem
+  margin-bottom: 1rem
+
+article
+  margin-bottom 2rem
+
+.name,
+.button,
+button
+  font-weight: 600
+  border: solid primary 2px
+  display: inline-block
+  border-radius: 5px
+  padding: 6px 12px
+  padding-bottom: 5px
+  cursor: pointer
+  &:hover
+    background-color: secondary-background
+  &:active
+    background-color: secondary-background-active
+
+.cta-button
+  color: primary
+  font-weight: 600
+  border: solid primary 2px
+  display: inline-block
+  border-radius: 5px
+  padding: 6px 12px
+  cursor: pointer
+  background-color: cta
+  box-shadow: 4px 4px 0 primary
+  &:hover
+    background-color: cta
+    box-shadow: 2px 2px 0 primary
+    position: relative
+    top: 2px
+    left: 2px
+  &:active
+    background-color: cta
+    box-shadow: none
+
+input
+  border-color: input-border
+  width: 200px
+  height: 25px
+  border-radius: 3px
+  border-style: solid
+  border-width: 1px
+  padding-left: 10px
+  padding-bottom: 2px
+  font-size: 13px
+  background-repeat: no-repeat
+  background-position: right 5px center
+  transition: all .1s
+  &:focus
+    outline: none
+    box-shadow: 0px 0px 3px 0px input-border-focused
+
+.search-results
+  margin-top: 2rem
+
+@require 'header'
+@require 'projects'
+@require 'categories'
+// user
+@require 'tooltips'
+@require 'footer'
