@@ -1,41 +1,27 @@
-# HyperDev Community Projects
+Welcome to the Glitch BETA
+=========================
 
-It's dangerous to go alone. Take these cool projects made with HyperDev that you can like or remix.
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-Philosophically, a little bit `GitHub Explore`, a little bit `Spotify`, and little bit `Youtube`.
+**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
 
 
-                  /88888888888888888888888888\
-                  |88888888888888888888888888/
-                   |~~____~~~~~~~~~"""""""""|
-                  / \_________/"""""""""""""\
-                 /  |              \         \
-                /   |  88    88     \         \
-               /    |  88    88      \         \
-              /    /                  \        |
-             /     |   ________        \       |
-             \     |   \______/        /       |
-  /"\         \     \____________     /        |
-  | |__________\_        |  |        /        /
-/""""\           \_------'  '-------/       --
-\____/,___________\                 -------/
-------*            |                    \
-  ||               |                     \
-  ||               |                 ^    \
-  ||               |                | \    \
-  ||               |                |  \    \
-  ||               |                |   \    \
-  \|              /                /"""\/    /
-     -------------                |    |    /
-     |\--_                        \____/___/
-     |   |\-_                       |
-     |   |   \_                     |
-     |   |     \                    |
-     |   |      \_                  |
-     |   |        ----___           |
-     |   |               \----------|
-     /   |                     |     ----------""\
-/"\--"--_|                     |               |  \
-|_______/                      \______________/    )
-                                              \___/
+Your Project
+------------
 
+On the front-end,
+- edit `public/client.js`, `public/style.css` and `views/index.html`
+- drag in `assets`, like images or music, to add them to your project
+
+On the back-end,
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
+
+Made by [Fog Creek](https://fogcreek.com/)
+-------------------
+
+\ ゜o゜)ノ
